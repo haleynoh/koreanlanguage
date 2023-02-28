@@ -1,0 +1,301 @@
+@font-face {
+	font-family: 'Biryani';
+	src: url(Biryani-ExtraLight.ttf);
+}
+
+body {
+	margin-top:0px;
+	background-image: url("bg1.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.nav {
+	margin-top:30px;
+	margin-right:50px;
+	height:60px;
+	width:99%;
+	text-align: right;
+	vertical-align: text-bottom;
+	font-family: "noh-sori", sans-serif;
+	font-weight: 400;
+	font-size:30px;
+	font-style: normal;
+}
+
+a, a:visited, a:active {
+	padding-left:10px;
+	padding-right: 10px;
+	color: #111;
+	font-size: 24wpx;
+	text-decoration:none;
+}
+
+a:active {
+	color: #800001;
+}
+
+.nav a:hover{
+	color:#800001;
+}
+
+/*home*/
+.logo {
+	margin-top: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width:60%;
+}
+
+.scroll {
+	margin-top: 190px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width:20%;
+
+}
+
+/*issue*/
+.issue {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding: 20px;
+  vertical-align: center;
+  background-color:#F2F0F0;
+}
+
+.issueTitle {
+	text-align:center;
+	font-family: "optique-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+	color:#800001;
+}
+
+.issueContent {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.issueImage {
+	dislay:inline;
+	padding:1rem 1rem;
+	width:400px;
+	vetical-align:middle;
+}
+
+.issueDescription {
+	font-family: "noh-sori", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color:#111;
+	text-align:left;
+}
+
+/*Jeju Island*/
+.jeju {
+  text-align: center;
+  padding: 20px;
+  background-color:#CCCED9;
+}
+
+.jejuContent {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.hmjeImage {
+	dislay:inline;
+	padding:1rem 1rem;
+	width:400px;
+	vetical-align:middle;
+}
+
+.jejuTitleKor {
+	font-family: "optique-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 130px;
+	color:#800001;
+	text-align:left;
+}
+
+.jejuTitleEng {
+	font-family: "optique-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 82px;
+	color:#2C497F;
+	text-align:left;
+
+}
+
+.jejuDescription {
+	margin-top:20px;
+	margin-bottom: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"noh-sori", sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:18px;
+	color:#111;
+	text-align:left;
+}
+
+/*history*/
+
+/*1 - Sejong*/
+.sejong {
+ 	text-align: center;
+ 	margin-top:0px;
+}
+
+.sejongContent {
+ 	display: inline-block;
+ 	padding: 1rem 1rem;
+ 	vertical-align: middle;
+ 	margin:20px;
+}
+
+.sejongImage {
+	dislay:inline;
+	margin:10px;
+	padding:1rem 1rem;
+	width:400px;
+	vetical-align:middle;
+}
+
+.sejongTitleKor {
+	font-family:"optique-display", sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:100px;
+	color:#800001;
+	text-align:left;
+}
+
+.sejongTitleEng {
+	font-family:"optique-display", sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:52px;
+	color:#2C497F;
+	text-align:left;
+
+}
+
+.sejongDescription {
+	font-family:"noh-sori", sans-serif;
+	font-weight: 00;
+	font-style:normal;
+	font-size:18px;
+	color:#111;
+	text-align:left;
+}
+
+/*2 - hmje*/
+
+.hmje {
+  text-align: center;
+}
+
+.hmjeContent {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin:20px;
+}
+
+.hmjeImage {
+	dislay:inline;
+	margin:10px;
+	padding:1rem 1rem;
+	width:400px;
+	vetical-align:middle;
+}
+
+.hmjeTitleKor {
+	font-family: "optique-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
+	color:#800001;
+	text-align:left;
+}
+
+.hmjeTitleEng {
+	font-family: "optique-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 45px;
+	color:#2C497F;
+	text-align:left;
+
+}
+
+.hmjeDescription {
+	font-family: "noh-sori", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color:#111;
+	text-align:left;
+}
+
+/*solution*/
+.solution-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+
+	text-align: center;
+	margin: 20px;
+}
+
+.solutionPageTitle {
+	font-family: "optique-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+	color:#800001;
+	text-align:center;
+}
+
+
+.solutionTitle{
+	display: inline-block;
+	font-family: "optique-display", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color:#2C497F;
+	text-align:left;
+}
+
+.solutionDescription{
+	display: inline-block;
+	font-family: "noh-sori", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	color:#111;
+	text-align:left;
+}
+
+.solution {
+	background-color:rgb(255, 255, 255, 0.5);
+	margin:20px;
+	padding: 20px;
+	width: 40%;
+	height: auto;
+}
